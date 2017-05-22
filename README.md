@@ -4,9 +4,9 @@
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://www.apple.com/nl/ios/)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%207%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)&nbsp;
 
-![Demo](https://raw.github.com/coolryze/YZFloatAnimation/master/YZFloatAnimationDemo/Demo.gif)
-
 A float animation view for iOS, based on CoreAnimation, using Swift.
+
+![Demo](https://raw.github.com/coolryze/YZFloatAnimation/master/YZFloatAnimationDemo/Demo.gif)
 
 
 ## Requirements
