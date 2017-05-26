@@ -31,8 +31,8 @@ class ViewController: UIViewController {
         let image = UIImage(named: "float_\(randomNumber)")!
         let floatAnimationView = YZFloatAnimationView(image: image)
         self.view.insertSubview(floatAnimationView, at: 0)
-        let fountainSource = CGPoint(x: kScreenWidth - 40,y: kScreenHeight - 40)
-        floatAnimationView.center = fountainSource
+        let centerPoint = CGPoint(x: kScreenWidth - 40, y: kScreenHeight - 40)
+        floatAnimationView.center = centerPoint
         floatAnimationView.animating(in: self.view)
     }
 
