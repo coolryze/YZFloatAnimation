@@ -20,8 +20,8 @@ This library requires `iOS 7.0+`, `Swift 3` and `Xcode 8.0+`.
 let image = UIImage(named: "image name") // image
 let floatAnimationView = YZFloatAnimationView(image: image)
 self.view.insertSubview(floatAnimationView, at: 0)
-let point = CGPoint(x: x,y: y) // center point
-floatAnimationView.center = point
+let centerPoint = CGPoint(x: x, y: y) // center point
+floatAnimationView.center = centerPoint
 floatAnimationView.animating(in: self.view)
 ```
 
